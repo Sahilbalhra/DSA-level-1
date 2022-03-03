@@ -10,6 +10,7 @@ public class countTheDigits {
            
         }
         System.out.println(digits);
+        scn.close();
     }
     
 }
