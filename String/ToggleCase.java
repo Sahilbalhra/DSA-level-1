@@ -29,6 +29,7 @@ public class ToggleCase {
         Scanner scn = new Scanner(System.in);
         String str=scn.nextLine();
         solution(str);
+        scn.close();
         
     }
     
