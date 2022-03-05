@@ -1,4 +1,4 @@
-package Recursion;
+
 import java.util.Scanner;
 // 1. Here are a few sets of inputs and outputs for your reference
 // Input1 -> 1

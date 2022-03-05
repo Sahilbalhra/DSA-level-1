@@ -1,5 +1,3 @@
-package Recursion;
-
 import java.util.Scanner;
 
 // 1. There are 3 towers. Tower 1 has n disks, where n is a positive number. Tower 2 and 3 are empty. 
