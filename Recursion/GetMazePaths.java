@@ -21,7 +21,7 @@ public class GetMazePaths {
     public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
         if (sr == dr && sc == dc) {
             ArrayList<String> base = new ArrayList<>();
-            base.add(" ");
+            base.add("");
             return base;
         }
         ArrayList<String> hPaths = new ArrayList<>();
@@ -53,7 +53,7 @@ public class GetMazePaths {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int m = scn.nextInt();
-        ArrayList<String> myAns = getMazePaths(0, 0, n, m);
+        ArrayList<String> myAns = getMazePaths(1, 1, n, m);
         System.out.println(myAns);
         scn.close();
 
