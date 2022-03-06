@@ -1,4 +1,4 @@
-package String;
+
 // 1. You are given a string. 
 
 // 2. You have to compress the given string in the following two ways - 
