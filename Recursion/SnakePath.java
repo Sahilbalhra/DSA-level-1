@@ -47,6 +47,7 @@ public class SnakePath {
         
         System.out.println(paths(N, M));
         print(N,M);
+        scn.close();
     }
 
     public static int count(int N,int M){
