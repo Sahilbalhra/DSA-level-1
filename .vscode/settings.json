@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "String",
         "RecursionOnTheWayUp",
         "Recursion",
         "2d array",
-        "String"
+        "RecursionBacktracking"
     ]
 }

@@ -27,9 +27,9 @@ public class FloodFill {
         }
         floodfill(arr, 0, 0, "");
         scn.close();
+        // asf -> answer so far
     }
     
-    // asf -> answer so far
     public static void floodfill(int[][] maze, int sr, int sc, String asf) {
          if(sr >= maze.length || sr < 0 || sc >= maze[0].length || sc < 0 || maze[sr][sc] == 1){
             return;
