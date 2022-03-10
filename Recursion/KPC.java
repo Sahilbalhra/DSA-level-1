@@ -56,7 +56,7 @@ public class KPC {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
         ArrayList<String> ans = getKPC(str);
-        System.out.println(ans);
+        System.out.print(ans);
         scn.close();
 
     }
