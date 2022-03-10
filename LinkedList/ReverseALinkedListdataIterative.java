@@ -32,7 +32,11 @@
 // 60 20 30 40 50 
 // 50 40 30 20 60
 
-public class ReverseALinkedList(dataIterative) {
+
+import java.io.*;
+
+
+public class ReverseALinkedListdataIterative {
     public static class Node {
         int data;
         Node next;
