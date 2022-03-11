@@ -21,7 +21,7 @@ import java.util.Scanner;
 // Sample Output
 // [tv, tw, tx, uv, uw, ux]
 
-public class KPC {
+public class KPCs {
     // all alpha according to the number
     public static String[] codes = { ".,", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
 
