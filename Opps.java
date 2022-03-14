@@ -1,55 +1,53 @@
-class Pen {
-    String color;
-    String type;
+// class Pen {
+//     String color;
+//     String type;
 
-    // function inside a class are method
-    public void write() {
-        System.out.println("writing something");
-
-    }
-
-    public void printcolor() {
-        System.out.println(this.color);
-    }
-
-}
-
-// class Student {
-//     String name;
-//     int age;
-
-//     public void printInfo() {
-//         System.out.println(this.name);
-//         System.out.println(this.age);
-//     }
-
-//     // 1constructor
-//     // Student() {
-//     //     System.out.println("hello i am constructor");
-//     // }
-//     // 2 type of constructor  
-//     Student(String name,int age){
-//         this.name=name;
-//         this.age=age;
+//     // function inside a class are method
+//     public void write() {
+//         System.out.println("writing something");
 
 //     }
 
-    
-//     //3 copy constructor used copy one object to another
-//     Student(Student s2){
-//         this.name=s2.name;
-//         this.age=s2.age;
-
+//     public void printcolor() {
+//         System.out.println(this.color);
 //     }
-
-//     Student() {
-       
-//     }
-    
 
 // }
 
-//polymorphism 
+// class Student {
+// String name;
+// int age;
+
+// public void printInfo() {
+// System.out.println(this.name);
+// System.out.println(this.age);
+// }
+
+// // 1constructor
+// // Student() {
+// // System.out.println("hello i am constructor");
+// // }
+// // 2 type of constructor
+// Student(String name,int age){
+// this.name=name;
+// this.age=age;
+
+// }
+
+// //3 copy constructor used copy one object to another
+// Student(Student s2){
+// this.name=s2.name;
+// this.age=s2.age;
+
+// }
+
+// Student() {
+
+// }
+
+// }
+
+// polymorphism
 
 class Student {
     int age;
@@ -76,7 +74,6 @@ public class Opps {
         // pen1.write();
         // pen1.printcolor();
 
-      
         // Student() are the constructor;
         // constructor name should be same as of class name
         // constructor does not have return type
@@ -100,12 +97,19 @@ public class Opps {
         // Student s2=new Student(s1);
         // s2.printInfo();
 
+        // polymorphism
+        // Types of Polymorphisms are:
+        // 1)Method overriding:
 
-        //polymorphism
+        // 2)method Overloading
+
         Student s1 = new Student();
         s1.age = 22;
         s1.name = "Sahil";
-        s1.printInfo(s1.name,s1.age);
+        // overLoading(compil time error )
+        // s1.printInfo(s1.age);
+        // s1.printInfo(s1.name);
+        // s1.printInfo(s1.name,s1.age);
 
     }
 
