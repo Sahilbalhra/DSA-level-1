@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "simple java program",
         "String",
         "RecursionOnTheWayUp",
         "RecursionBacktracking",
         "Recursion",
         "LinkedList",
         "2d array",
-        "simple java program"
+        ""
     ]
 }
