@@ -9,32 +9,19 @@ public class isPalladiumLeetCode {
         scn.close();
     }
 
-    public static boolean isPalindrome(int x) {
-        if (x < 0) {
-            x = -x;
-
+    public static boolean isPalindrome(int n) {
+        int r, sum = 0, temp;
+        temp = n;
+        while (n > 0) {
+            r = n % 10; // getting remainder
+            sum = (sum * 10) + r;
+            n = n / 10;
         }
+        if (temp == sum)
+            return true;
+        else
+            return false;
 
-        int temp = x;
-        int pow = 1;
-        while (temp != 0) {
-            pow = pow * 10;
-            temp = temp / 10;
-
-        }
-        pow = pow / 10;
-
-        temp = x;
-        while (pow != 0) {
-            if (x / pow != temp % 10) {
-                return false;
-            }
-            x = x % pow;
-            pow = pow / 10;
-            temp = temp / 10;
-
-        }
-        return true;
     }
 
 }
