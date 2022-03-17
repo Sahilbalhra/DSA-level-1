@@ -49,22 +49,54 @@
 
 // polymorphism
 
-class Student {
-    int age;
-    String name;
+// class Student {
+//     int age;
+//     String name;
 
-    public void printInfo(String name) {
-        System.out.println(name);
-    }
+//     public void printInfo(String name) {
+//         System.out.println(name);
+//     }
 
-    public void printInfo(int age) {
-        System.out.println(age);
-    }
+//     public void printInfo(int age) {
+//         System.out.println(age);
+//     }
 
-    public void printInfo(String name, int age) {
-        System.out.println(name + " age is :" + age);
-    }
-}
+//     public void printInfo(String name, int age) {
+//         System.out.println(name + " age is :" + age);
+//     }
+// }
+
+
+
+
+
+// //base class super class parent class
+// class Shapes{
+//     public void area(){
+//         System.out.println("displays area");
+
+//     }
+// }
+
+// //sub class child class
+// class Triangle extends Shapes{
+//     public void area(int l,int h){
+//         System.out.println(1/2*l*h);
+//     }
+// }
+
+// class EquilateralTriangle extends Shapes{
+//     public void area(int l,int h){
+//         System.out.println(1/2*l*h);
+//     }
+// }
+
+// class Circle extends Shapes{
+//     public void area(int r){
+//         System.out.println((3.14)*r*r);
+//     }
+// }
+
 
 public class Opps {
     public static void main(String[] args) {
@@ -97,19 +129,36 @@ public class Opps {
         // Student s2=new Student(s1);
         // s2.printInfo();
 
-        // polymorphism
+        //concept of oops 4
+
+        // 1)polymorphism
         // Types of Polymorphisms are:
         // 1)Method overriding:
 
-        // 2)method Overloading
+        // 2)method Overloading(run time error)
 
-        Student s1 = new Student();
-        s1.age = 22;
-        s1.name = "Sahil";
+        // Student s1 = new Student();
+        // s1.age = 22;
+        // s1.name = "Sahil";
         // overLoading(compil time error )
         // s1.printInfo(s1.age);
         // s1.printInfo(s1.name);
         // s1.printInfo(s1.name,s1.age);
+
+
+        //2)Inhirtance( ak class ki properties use by another class) used for code reuseablety
+        // Triangle t1=new Triangle();
+
+        //types of Inhirtance
+        //1) single level inhertance(shape and triangle)
+        //2) multi level inhertance(shape and triangle and equilateral triangle)
+        //3) herierchical (shapse and then triangle and circle)
+        //4) hybrid (mix of other types inhritance)
+
+
+
+        //pakage(collection of related classes and interface)
+
 
     }
 
