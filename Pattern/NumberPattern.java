@@ -16,7 +16,7 @@ public class NumberPattern {
                 str += i;
                 System.out.println(str + " = " + ans);
             } else {
-                str += " + "+i;
+                str += " + " + i;
                 System.out.println(str + " = " + ans);
             }
         }
