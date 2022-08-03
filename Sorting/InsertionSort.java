@@ -33,6 +33,8 @@ public class InsertionSort {
 
         output(arr, n);
 
+        // tc O(n^2)
+
     }
 
 }
