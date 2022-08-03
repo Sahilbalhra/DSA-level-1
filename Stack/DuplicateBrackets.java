@@ -12,8 +12,9 @@ package Stack;
 import java.util.*;
 
 public class DuplicateBrackets {
+    public static Scanner scn=new Scanner(System.in);
     public static void main(String[] args) throws Exception {
-        Scanner scn = new Scanner(System.in);
+        
         String str = scn.nextLine();
         Stack<Character> st = new Stack<>();
 
@@ -36,6 +37,7 @@ public class DuplicateBrackets {
 
         }
         System.out.println("false");
+        
         scn.close();
     }
 
