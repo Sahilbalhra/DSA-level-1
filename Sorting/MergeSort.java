@@ -28,6 +28,7 @@ public class MergeSort {
         }
 
     }
+
     public static void divide(int arr[],int si,int ei){
         if(si>=ei){
             return;
@@ -37,6 +38,7 @@ public class MergeSort {
         divide(arr, mid+1, ei);
         conquer(arr,si,mid,ei);
     }
+    
     public static void output(int[] arr, int n) {
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i]);
